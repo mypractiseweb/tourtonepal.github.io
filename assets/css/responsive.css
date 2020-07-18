@@ -1,0 +1,145 @@
+@media (max-width: 750px){
+	#flexbox{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#form{
+	width: 100%;
+	height: auto;
+	position: initial;
+	top: -15vh;
+
+	}
+
+	#notices{
+	margin-top: 5vh;
+
+	}
+
+	#AboutUs{
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	background-color: #fff;
+	margin-top: 20px;
+	overflow: hidden;
+	}
+
+	#AboutUs h2{
+	font-weight:lighter!important; 
+	font-size: 40px;
+	}
+
+	#AboutUs p{
+	text-align: justify;
+	font-weight: lighter;
+	font-size: auto;
+	color: #000;
+	}
+
+	#org{
+		max-width: 100%;
+		height: 45vh;
+	}
+
+	#ContactUs{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	background-color: #f8f9fa;
+	font-size: 20px;
+	font-family: "Verdana";
+	}
+
+	#socialmedia{
+	font-size: 25px;
+
+	}
+
+}
+
+@media(max-width: 768px){
+
+	hr{
+	height: 50px;
+	}
+	#fixed hr{
+		height: 65px;
+	}
+
+		#ContactUs{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	background-color: #f8f9fa;
+	font-size: 20px;
+	font-family: "Verdana";
+	}
+
+	#socialmedia{
+	font-size: 25px;
+
+	}
+
+	#form{
+	width: 50%;
+	height: auto;
+	position: relative;
+	left: 50%;
+	top: -15vh;
+	}
+
+	#note{
+		font-size:20px !important; 	
+	}
+
+	#Copyrighted{
+		font-size: 20px;
+	}
+
+	#AboutUs{
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
+	background-color: #fff;
+	margin-top: 20px;
+	overflow: hidden;
+	}
+
+
+	#AboutUs h2{
+	font-weight:lighter!important; 
+	font-size: 50px;
+	}
+
+	#AboutUs p{
+	text-align: justify;
+	font-weight: lighter;
+	font-size: 30px;
+	color: #000;
+	}
+
+
+	#org{
+		max-width: 100%;
+		height: 45vh;
+	}
+
+	#piece,#piece2,#packnote{
+		font-weight: lighter;
+		font-size: 50px;
+	}
+
+	.nav-link{
+		font-size: 35px;
+	}
+
+	#introbody h4{
+		font-size: 50px;
+}
+
+}
